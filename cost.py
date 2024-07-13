@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
     if not os.path.exists(os.getcwd() + "/" + in_filename):
         print("输入文件名请改成:" + in_filename)
-        exit(1)
+        sys.exit(1)
 
     data = read_excel(os.getcwd() + "/" + in_filename)
     # data = read_excel(in_filename)
